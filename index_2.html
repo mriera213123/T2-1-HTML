@@ -26,9 +26,11 @@ header {
 
 /* Create two columns/boxes that floats next to each other */
 nav {
-  float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  float: center;
+  position:relative;
+  left: 25%;
+  width: 50%;
+  height: 100px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
 }
@@ -43,7 +45,7 @@ article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
+  background-color: #363333;
   height: 300px; /* only for demonstration, should be removed */
 }
 
@@ -75,7 +77,13 @@ footer {
     <header>
         <h1>Robot salvaje</h1>
     <header>
+            <nav>
+        <a href="https://es.wikipedia.org/wiki/Robots_(pel%C3%ADcula)">wiki de la pelicula </a>
+        <a href="https://es.wikipedia.org/wiki/Chris_Wedge" target="_blank"> wiki director</a>
+        
+    </nav>
     <section>
+        
         <p>primer projecto de FPGM</p>
         <p>Robots es una película de comedia de ciencia ficción animada 
             estadounidense de 2005 producida por Blue Sky Studios (siendo
@@ -99,6 +107,8 @@ footer {
             <li>Halle Berry</li>
             <li>Robin Williams </li>
         </ul>
+    </article>
+    <article>
         <table>
             <tr>
                 <th>Titulo</th>
@@ -117,17 +127,12 @@ footer {
             </tr>
         </table>
     </article>
+    <aside>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRStjnnHjPQVs4MaPJlkCs40gkkxz2ZrJAuAFSpLLvo9A&s" 
         width="500" height="300" alt="imagen">
         <br>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfnWO3C7ofl0t7HxjBTD1OokqAp1RsWEtCraQPB5h6Ug&s=10" alt="imagen2">
-        <br>
-    <nav>
-        <a href="https://es.wikipedia.org/wiki/Robots_(pel%C3%ADcula)">wiki</a>
-        <br>
-        <a href="https://es.wikipedia.org/wiki/Chris_Wedge" target="_blank">wiki (otra)</a>
-    </nav>
-        <br>
+    </aside>
     <footer>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/sEXyPinA4lE?si=vXIfrBD88iNlPEQ5" 
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
