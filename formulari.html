@@ -1,0 +1,65 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre y Apellidos</label><br>
+                <input type="text" placeholder="Jose lopez Artilez"><br><br>
+
+                <label for="Correo">Correo electronico</label><br>
+                <input type="email" placeholder="hola@gmail.com"><br><br>
+
+                <label for="contrase">Contraseña</label><br>
+                <input type="password" minlength="8" placeholder="" size="15"><br><br>
+                
+                <label for="Fecha">Fecha de nacimiento</label><br>
+                <input type="date" placeholder=""><br><br>
+                
+                <label for="edad">edad</label><br>
+                <input type="number" min="16" max="99" placeholder="18"><br><br>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Dades Acadèmiques i Preferències</legend>
+                
+                <label for="turn">Turno</label><br>
+                <input type="radio" id="Mañana" name="turno" value="HTML">
+                <label for="mañana">Mañana</label><br>
+                <input type="radio" id="Tarde" name="turno" value="CSS">
+                <label for="tarde">Tarde</label><br><br>
+
+                <label for="modul">Modulos</label><br>
+                <input type="checkbox" id="progra" name="multiple" value="progra">
+                <label for="Progamacion"> Progamacion</label><br>
+                <input type="checkbox" id="marcas" name="multiple" value="marcas">
+                <label for="marcas"> Llenguatges de Marques</label><br>
+                <input type="checkbox" id="base" name="multiple" value="base">
+                <label for="base"> Bases de Dades</label><br><br>
+
+                <label for="nivv">Nivell d'experiència prèvia</label><br>
+                <select id="nivv" name="nivv">
+                    <option value="0">0 experiència</option>
+                    <option value="ba">basico</option>
+                    <option value="inn">intermedio</option>
+                    <option value="ex">experto</option>
+                </select><br><br>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Observacions i Botons</legend>
+                
+                <label for="area">Comentaris / Biografia</label><br>
+                <textarea rows="4" cols="40"></textarea> <br><br>
+
+                <input type="checkbox" id="confia" name="confia" value="confia" required>
+                <label for="confia" >  Acceptació de termes</label><br><br>
+
+                <label for="area">enviar formulario</label><br>
+                <input type="submit"></input><br><br>
+                <input type="reset"><br><br>
+            </fieldset><br><br>
+        </form>
+    </body>
+</html>
